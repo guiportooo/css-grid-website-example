@@ -132,3 +132,13 @@ img {
     box-shadow: var(--shadow);
     text-align: center;
 }
+
+/* Info */
+.info {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+    background: var(--primary);
+    box-shadow: var(--shadow);
+}
