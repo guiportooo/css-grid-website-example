@@ -34,3 +34,29 @@ img {
     display: grid;
     grid-gap: 20px;
 }
+
+/* Navigation */
+.main-nav ul {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav a {
+    display: block;
+    background: var(--primary);
+    color: var(--dark);
+    box-shadow: var(--shadow);
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover {
+    background: var(--dark);
+    color: var(--light);
+}
