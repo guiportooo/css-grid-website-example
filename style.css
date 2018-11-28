@@ -155,4 +155,13 @@ img {
     box-shadow: var(--shadow);
 }
 
+/* Footer */
+footer {
+    padding: 1rem;
+    margin-top: 2rem;
+    background: var(--dark);
+    color: var(--light);
+    text-align: center;
+}
+
 
